@@ -22,7 +22,8 @@ export function New(){
           <TextArea placeholder="Observações" />
 
           <Section title="Links úteis">
-            <NoteItem $isnew/>
+            <NoteItem value="https://github.com"/>
+            <NoteItem placeholder="Novo item" isnew/>
           </Section>
 
         </Form>
